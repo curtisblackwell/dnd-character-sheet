@@ -1,0 +1,47 @@
+input {
+  @apply
+    bg-transparent
+    h-4
+    leading-none
+    p-0
+    w-full
+  ;
+}
+
+
+.filled {
+  @apply
+    bg-grey-lightest
+    rounded-sm
+  ;
+}
+
+
+.ruled {
+  @apply
+    border-b
+    border-grey
+  ;
+}
+
+
+
+
+label {
+  @apply
+    px-px
+    text-1/3
+  ;
+}
+
+
+.ruled-label {
+  @apply
+    absolute
+    text-grey-dark
+    mt-4
+    leading-normal
+    tracking-wider
+    uppercase
+  ;
+}

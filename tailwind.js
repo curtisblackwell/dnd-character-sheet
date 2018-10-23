@@ -171,6 +171,7 @@ module.exports = {
     'md': '768px',
     'lg': '992px',
     'xl': '1200px',
+    'print': {'raw': 'print'},
   },
 
 
@@ -194,11 +195,11 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Roboto',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
       'Segoe UI',
-      'Roboto',
       'Oxygen',
       'Ubuntu',
       'Cantarell',
@@ -250,15 +251,19 @@ module.exports = {
   */
 
   textSizes: {
-    'xs': '.75rem',     // 12px
-    'sm': '.875rem',    // 14px
-    'base': '1rem',     // 16px
-    'lg': '1.125rem',   // 18px
-    'xl': '1.25rem',    // 20px
-    '2xl': '1.5rem',    // 24px
-    '3xl': '1.875rem',  // 30px
-    '4xl': '2.25rem',   // 36px
-    '5xl': '3rem',      // 48px
+    '1/3': '.33rem',
+    '1/2': '.5rem',
+    '2x': '2rem',
+
+    'xs': '.75rem',
+    'sm': '.875rem',
+    'base': '.25in',
+    'lg': '1.125rem',
+    'xl': '1.25rem',
+    '2xl': '1.5rem',
+    '3xl': '1.875rem',
+    '4xl': '2.25rem',
+    '5xl': '3rem',
   },
 
 
@@ -325,6 +330,7 @@ module.exports = {
     'tight': '-0.05em',
     'normal': '0',
     'wide': '0.05em',
+    'wider': '0.1em',
   },
 
 
@@ -516,6 +522,9 @@ module.exports = {
   */
 
   height: {
+    '1x': '1rem',
+    '2x': '2rem',
+
     'auto': 'auto',
     'px': '1px',
     '1': '0.25rem',

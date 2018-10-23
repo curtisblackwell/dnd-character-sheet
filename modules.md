@@ -5,7 +5,6 @@
 - Level
 - Background
 - Race
-  - Traits
 - Alignment
 - XP
 
@@ -93,6 +92,7 @@ Score and modifier for each:
 - Skin
 - Hair
 - Personality traits
+- Racial traits
 - Ideals
 - Bonds
 - Flaws

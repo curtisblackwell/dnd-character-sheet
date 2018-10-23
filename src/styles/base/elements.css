@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  @apply
+    font-sans
+    leading-none
+    text-base
+  ;
+}
