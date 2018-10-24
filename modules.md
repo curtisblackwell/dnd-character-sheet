@@ -40,6 +40,10 @@ Score and modifier for each:
 
 ## Modifiers
 - Proficiency bonus
+- Perception (passive wisdom)
+- Investigation (passive intelligence)
+
+*Passive 10 + modifier*
 
 
 ## Battle
