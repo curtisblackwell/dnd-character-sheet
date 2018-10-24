@@ -12,7 +12,7 @@
       <div class="flex-1 pl-1 inline-flex flex-wrap">
         <div v-for="field in fields" :key="field.name" :class="field.class">
           <label :for="field.name" v-text="field.name" class="ruled-label"></label>
-          <input type="text" :name="field.name" class="ruled">
+          <input type="text" :name="field.name" :id="field.name" class="ruled">
         </div>
       </div>
     </div>
