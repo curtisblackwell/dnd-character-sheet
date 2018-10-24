@@ -22,7 +22,7 @@ Score and modifier for each:
 4. Intelligence
     - Arcana
     - History
-    - Investication
+    - Investigation
     - Nature
     - Religion
 5. Wisdom
