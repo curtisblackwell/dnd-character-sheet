@@ -561,6 +561,8 @@ module.exports = {
   */
 
   minWidth: {
+    '1': '.33rem',
+
     '0': '0',
     'full': '100%',
   },
@@ -581,6 +583,8 @@ module.exports = {
   */
 
   minHeight: {
+    '1': '.33rem',
+
     '0': '0',
     'full': '100%',
     'screen': '100vh'
@@ -686,6 +690,8 @@ module.exports = {
   */
 
   margin: {
+    '1/2': '0.125rem',
+
     'auto': 'auto',
     'px': '1px',
     '0': '0',
