@@ -15,7 +15,10 @@
         >
         <label
           :for   = "ability.name"
-          class  = "text-base uppercase tracking-wide font-medium text-grey-dark justify-center -ml-2"
+          class  = "
+            text-base uppercase tracking-wide font-medium text-grey-dark
+            justify-center -ml-2
+          "
           v-text = "ability.name"
         ></label>
       </div>
