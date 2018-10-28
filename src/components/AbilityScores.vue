@@ -4,7 +4,7 @@
       v-for  = "(ability, i) in abilities"
       :key   = "i"
       :class = "ability.class"
-      class  = "w-1/3 px-2 py-1 bg-white border-4 border-grey-lightest"
+      class  = "w-1/3 px-2 py-1 border-4 border-grey-lightest"
     >
       <div>
         <input
