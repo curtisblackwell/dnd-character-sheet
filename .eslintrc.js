@@ -4,7 +4,7 @@ module.exports = {
   env: { node: true },
   'extends': [
     'plugin:vue/essential',
-    'thefriendlybeasts',
+    'thefriendlybeasts/lib/vue-cli',
   ],
 
   rules: {
