@@ -6,7 +6,7 @@
         <div class="mt-4 absolute">
           <label for="name" class="ruled-label pt-px">Name</label>
         </div>
-        <input type="text" class="filled h-2x">
+        <input type="text" name="name" id="name" class="filled h-8">
       </div>
 
       <div class="flex-1 pl-1 inline-flex flex-wrap">

@@ -253,7 +253,7 @@ module.exports = {
   textSizes: {
     '1/3': '.33rem',
     '1/2': '.5rem',
-    '2x': '2rem',
+    '2': '2rem',
 
     'xs': '.75rem',
     'sm': '.875rem',
@@ -501,6 +501,7 @@ module.exports = {
     '4/5': '80%',
     '1/6': '16.66667%',
     '5/6': '83.33333%',
+    '1/12': '8.33333%',
     'full': '100%',
     'screen': '100vw'
   },
@@ -522,9 +523,6 @@ module.exports = {
   */
 
   height: {
-    '1x': '1rem',
-    '2x': '2rem',
-
     'auto': 'auto',
     'px': '1px',
     '1': '0.25rem',
@@ -561,7 +559,7 @@ module.exports = {
   */
 
   minWidth: {
-    '1': '.33rem',
+    '1/3': '.33rem',
 
     '0': '0',
     'full': '100%',
@@ -583,7 +581,7 @@ module.exports = {
   */
 
   minHeight: {
-    '1': '.33rem',
+    '1/3': '.33rem',
 
     '0': '0',
     'full': '100%',

@@ -24,7 +24,7 @@
       </div>
 
       <div>
-        <input type="text" class="filled h-2x w-5/6 block mx-auto mt-1">
+        <input type="text" class="filled h-8 w-5/6 block mx-auto mt-1">
 
         <input
           type  = "text"
