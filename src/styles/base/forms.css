@@ -24,7 +24,8 @@ label {
   @apply
     absolute
     text-grey-dark
-    mt-4
+    -mb-2
+    pin-b
     px-px
     leading-normal
     tracking-wider
@@ -59,6 +60,7 @@ label {
   @apply
     border-b
     border-grey
+    h-full
   ;
 }
 

@@ -11,6 +11,7 @@
           :key   = "field.name"
           :name  = "field.name"
           :class = "field.class"
+          class  = "h-4"
         />
       </div>
     </div>

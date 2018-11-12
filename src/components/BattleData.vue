@@ -9,7 +9,7 @@
         <RuledField
           v-for  = "(field, i) in ['speed', 'initiative']"
           :key   = "i"
-          class  = "w-1/2"
+          class  = "w-1/2 h-4"
           :class = "{ 'pl-1': i > 0 }"
           :name  = "field"
         />
