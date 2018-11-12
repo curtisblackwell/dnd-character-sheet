@@ -1,13 +1,9 @@
 <template>
   <div>
     <div class="flex w-full">
-      <div class="w-1/3 pr-1 relative">
-        <DndLogo class="absolute pin-r pin-b pr-1 pb-1 mr-1 opacity-25 w-1/5"/>
-        <div class="mt-4 absolute">
-          <label for="name" class="ruled-label pt-px">Name</label>
-        </div>
-        <input type="text" name="name" id="name" class="filled h-8">
-      </div>
+      <FilledField name="name" class="w-1/3 h-8">
+        <DndLogo slot="icon" class="absolute pin-r pin-b pr-1 pb-1 mr-1 w-1/5 opacity-25"/>
+      </FilledField>
 
       <div class="flex-1 pl-1 inline-flex flex-wrap">
         <div v-for="field in fields" :key="field.name" :class="field.class">
@@ -23,12 +19,16 @@
 
 
 <script>
-import DndLogo from './DndLogo';
+import DndLogo     from './DndLogo';
+import FilledField from './FilledField';
 
 export default {
   name: 'MetaData',
 
-  components: { DndLogo },
+  components: {
+    DndLogo,
+    FilledField,
+  },
 
   data() {
     return {

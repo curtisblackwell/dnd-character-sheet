@@ -6,6 +6,20 @@ label {
 }
 
 
+.filled-label {
+  @apply
+    absolute
+    text-grey-dark
+    -mb-2
+    pin-b
+    px-px
+    leading-normal
+    tracking-wider
+    uppercase
+  ;
+}
+
+
 .ruled-label {
   @apply
     absolute
