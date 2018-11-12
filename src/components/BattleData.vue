@@ -6,15 +6,13 @@
       </FilledField>
 
       <div class="flex mt-2">
-        <div
-          v-for = "(field, i) in ['Speed', 'Initiative']"
-          :key  = "i"
-          class = "relative w-1/2"
+        <RuledField
+          v-for  = "(field, i) in ['speed', 'initiative']"
+          :key   = "i"
+          class  = "w-1/2"
           :class = "{ 'pl-1': i > 0 }"
-        >
-          <label :for="field" v-text="field" class="ruled-label"></label>
-          <input type="text" :name="field" :id="field" class="ruled">
-        </div>
+          :name  = "field"
+        />
       </div>
     </div>
 
@@ -46,6 +44,7 @@
 <script>
 import ArmorClass  from './ArmorClass';
 import FilledField from './FilledField';
+import RuledField  from './RuledField';
 
 export default {
   name: 'BattleData',
@@ -53,10 +52,7 @@ export default {
   components: {
     ArmorClass,
     FilledField,
-  },
-
-  data() {
-    return {};
+    RuledField,
   },
 };
 </script>

@@ -6,10 +6,12 @@
       </FilledField>
 
       <div class="flex-1 pl-1 inline-flex flex-wrap">
-        <div v-for="field in fields" :key="field.name" :class="field.class">
-          <label :for="field.name" v-text="field.name" class="ruled-label"></label>
-          <input type="text" :name="field.name" :id="field.name" class="ruled">
-        </div>
+        <RuledField
+          v-for  = "field in fields"
+          :key   = "field.name"
+          :name  = "field.name"
+          :class = "field.class"
+        />
       </div>
     </div>
   </div>
@@ -21,6 +23,7 @@
 <script>
 import DndLogo     from './DndLogo';
 import FilledField from './FilledField';
+import RuledField  from './RuledField';
 
 export default {
   name: 'MetaData',
@@ -28,6 +31,7 @@ export default {
   components: {
     DndLogo,
     FilledField,
+    RuledField,
   },
 
   data() {
