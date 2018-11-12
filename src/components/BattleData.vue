@@ -42,7 +42,7 @@
 
 
 <script>
-import ArmorClass  from './ArmorClass';
+import ArmorClass  from './svg/ArmorClass';
 import FilledField from './FilledField';
 import RuledField  from './RuledField';
 

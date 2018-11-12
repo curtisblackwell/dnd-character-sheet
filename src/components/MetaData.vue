@@ -21,7 +21,7 @@
 
 
 <script>
-import DndLogo     from './DndLogo';
+import DndLogo     from './svg/DndLogo';
 import FilledField from './FilledField';
 import RuledField  from './RuledField';
 
